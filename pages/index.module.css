@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  min-height: 500px;
+  border: 1px solid gray;
+}
+
+.container :global(.ProseMirror) {
+  flex: 1;
+  padding: 16px;
+}
